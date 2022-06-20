@@ -9,6 +9,8 @@ router.get('/', (request, respond) => {
     respond.send(users);
 }); 
 
+console.log("change")
+
 router.post('/', (request, respond) =>{
 
     const user = request.body;
